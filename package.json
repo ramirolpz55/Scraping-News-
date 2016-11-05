@@ -1,0 +1,32 @@
+{
+  "name": "scraping-news",
+  "version": "1.0.0",
+  "description": "Web app using cheerio.js to scrape users choice news site",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramirolpz55/Scraping-News-.git"
+  },
+  "author": "Ramiro Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramirolpz55/Scraping-News-/issues"
+  },
+  "homepage": "https://github.com/ramirolpz55/Scraping-News-#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.78.0"
+  }
+}
